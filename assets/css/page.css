@@ -1,0 +1,84 @@
+body {
+	font-family: "merriweather sans";
+	font-size: 16px;
+}
+
+.carousel-item {
+	height: 65vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	background: linear-gradient(to bottom, rgba(0, 149, 255, 0.8) 0, rgba(0, 35, 154, 0.8) 100%), url(../img/pagehead.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.ico {
+	color: rgb(58, 58, 58);
+}
+
+.page-header {
+	height: 150px;
+	width: 100%;
+	background: url("../img/page-head.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#info th {
+	font-size: 16px;
+	font-family: 'merriweather sans';
+	padding: 8px;
+}
+
+#info td {
+	font-size: 16px;
+	font-family: 'merriweather sans';
+	padding: 8px;
+
+}
+
+.orn {
+	color: #e25638;
+}
+
+.blu {
+	color: #00466b;
+}
+
+#tema {
+	/* background: url('../img/bg-tema.jpg') no-repeat center fixed;
+	background-color: #e25638; */
+	/* background: url("../img/bluebg.jpg"); */
+	background: linear-gradient(to bottom, rgb(29 139 190 / 60%) 0, rgb(19 37 59 / 60%) 100%), url(../img/bluebg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#tema h2,
+#tema p {
+	font-family: 'Courgette', cursive;
+	font-size: 32px;
+}
+
+#regist {
+	/* background: url('../img/bg-tema.jpg') no-repeat center fixed;
+	background-color: #e25638; */
+	background: url("../img/bg-regist.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.dropdown-item {
+	font-family: "merriweather sans";
+	font-weight: 700;
+	font-size: 0.9rem;
+	color: #fff;
+}
